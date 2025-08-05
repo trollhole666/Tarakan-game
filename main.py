@@ -1,5 +1,7 @@
+# main.py
 
 from flask import Flask, render_template
+import bot  # импорт бота
 
 app = Flask(__name__)
 
